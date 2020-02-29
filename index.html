@@ -48,10 +48,10 @@
           <h3 class="order__header">Оставьте заявку (в любое время) и мы с вами свяжемся</h3>
           <img src="img/28.png" alt="arrow-right" class="arrow">
           <div class="order-block">
-            <form action="######" method="POST">
-              <input class="name" type="text" placeholder="Ваше имя">
-              <input class="phone" type="text" placeholder="Телефон" required>
-              <input class="order__button" type="button" value="Отправить">     <!---СДЕЛАТЬ ОТПРАВКУ НА ПОЧТУ-->
+            <form action="send.php" method="POST">
+              <input class="name" type="text" name="name" placeholder="Ваше имя" required>
+              <input class="phone" type="text" name="phone" placeholder="Телефон" required>
+              <input class="order__button" type="submit" value="Отправить">     <!---СДЕЛАТЬ ОТПРАВКУ НА ПОЧТУ-->
             </form>
           </div>
         </div>
