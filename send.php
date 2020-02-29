@@ -19,7 +19,7 @@ $name = urldecode($name);
 $phone = urldecode($phone);
 $name = trim($name);
 $phone = trim($phone);
-if (mail("Danich132@yandex.ru", "Заказ с сайта", "ФИО:".$name.". "Телефон:" ".$phone ,"From: info@danich7.github.io \r\n"))
+if (mail("Danich132@yandex.ru", "Заказ с сайта", "ФИО:".$name.". Phone: ".$phone ,"From: info@danich7.github.io \r\n"))
  {
     echo "сообщение успешно отправлено";
   } else {
