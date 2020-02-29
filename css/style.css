@@ -1,0 +1,157 @@
+.container {
+  width: 95%;
+  max-width: 1140px;
+  margin: auto;
+}
+.header {
+  display: flex;
+  padding-top: 40px;
+  margin-bottom: 60px;
+  justify-content: space-between;
+}
+header {
+  background-color: rgba(105, 128, 0, 0.1);
+}
+h1 {
+  font-size: 28px;
+  line-height: 40px;
+}
+h2 {
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3 {
+  font-size: 20px;
+}
+.order {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+.order__header {
+  font-size: 20px;
+  font-weight: bold;
+}
+.arrow {
+  width: 125px;
+  height: 70px;
+}
+.order-block {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  background-color: wheat;
+  border-radius: 2%;
+}
+.order-block input[type="text"] {
+  border-radius: 5px;
+  margin-bottom: 40px;
+  width: 80%;
+  text-align: center;
+  margin-left: 40px;
+} 
+.order-block .order__button {
+  width: 80%;
+  background-color: limegreen;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  margin-left: 40px;
+}
+.order-block .order__button:active {
+  background-color: darkgreen;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.about-us {
+  margin-left: 30px;
+  background-color: rgba(150, 100, 50, 0.3);
+}
+.about-us__info {
+  font-size: 18px;
+  line-height: 26px;
+  padding-top: 20px;
+}
+.pc {
+  width: 500px;
+  height: 400px;
+}
+h3 {
+  font-size: 20px;
+}
+.schedule {
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 20px;
+}
+.phone-number {
+  color: red;
+  font-size: 28px;
+}
+.email-header {
+  color: green;
+  font-size: 28px;
+}
+span {
+  text-transform: uppercase;
+}
+.city {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.contacts {
+  display: flex;
+  flex-direction: column;
+}
+.common-problems {
+  margin-bottom: 30px;
+}
+.main-end {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.ask {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  padding-left: 80px;
+}
+.common-problems {
+  margin-bottom: 35px;
+}
+.common-problems__header {
+  margin-bottom: 25px;
+}
+.common-problems__list {
+  line-height: 25px;
+}
+.common-problems__termin {
+  color: blue;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.common-problems__description {
+  font-size: 18px;
+  margin-bottom: 5px;
+  background-color: rgba(200, 255, 170, 0.1);
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+footer {
+  background-color: rgba(0, 0, 0, 0.2);
+}
