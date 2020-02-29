@@ -147,6 +147,35 @@ span {
   margin-bottom: 5px;
   background-color: rgba(200, 255, 170, 0.1);
 }
+.price {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.price__header {
+  margin-bottom: 20px;
+}
+.price__table {
+  width: 50%;
+  font-size: 18px;
+  border: 2px solid green;
+}
+.price__table td {
+  padding-bottom: 20px;
+  width: 400px;
+  border: solid 2px green;
+  padding-left: 10px;
+  text-align: center;
+}
+.price__table .price__cost {
+  background-color: wheat;
+  padding-right: 0;
+  width: 100px;
+}
+.price__table .price__cost-free {
+  background-color: tomato;
+}
 .footer {
   display: flex;
   justify-content: space-between;
