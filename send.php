@@ -1,6 +1,6 @@
 <?php
-$name = $_POST['name'];
-$phone = $_POST['phone']; 
+$name = $_GET['name'];
+$phone = $_GET['phone']; 
 $name = htmlspecialchars($name);
 $phone = htmlspecialchars($phone);
 $name = urldecode($name);
